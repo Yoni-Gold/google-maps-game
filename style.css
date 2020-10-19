@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+}
+button {
+    margin: 5px;
+}
+#map {
+    width: 600px;
+    height: 900px;
+    border: 3px solid darkgray;
+    margin-right: 10px;
+}
+#side-menu {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    width: 400px;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.button-div {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin: 5px;
+    border: 2px solid black;
+    width: 150px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id='map'></div>
+    <div id='side-menu'>
+        <div class="button-div"><button onclick="startGame(1)">VERY EASY</button><div>Your Best Score:</div><div class='bestScore'></div></div>
+        <div class="button-div"><button onclick="startGame(2)">MEDIUM</button><div>Your Best Score:</div><div class='bestScore'></div></div>
+        <div class="button-div"><button onclick="startGame(3)">HARD</button><div>Your Best Score:</div><div class='bestScore'></div></div>
+        <div class="button-div"><button onclick="startGame(4)">EXPERT</button><div>Your Best Score:</div><div class='bestScore'></div></div>
+        <h1>find: <span id='city'></span></h1>
+        <h3>your score: <span id='score'>0</span></h3>
+        <ul id='list'>
+            
+        </ul>
+    </div>
+    <script src='./main.js'>
+    </script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIawjD0EAyDRJC0RyWqNfkwEKRoQZ0Wqg&callback=initMap"></script>
+</body>
+</html>
